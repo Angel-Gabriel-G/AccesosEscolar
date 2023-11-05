@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Accesos a la Escuela</title>
+    <style>
+        /* Deshabilita el zoom en CSS */
+        body {
+            touch-action: none;
+            touch-zooming: none;
+        }
+    </style>
+    <script>
+        // Deshabilita el zoom en JavaScript
+        document.addEventListener('gesturestart', function (e) {
+            e.preventDefault();
+        });
+    </script>
 </head>
 <body>
     <h1>Accesos a la Escuela</h1>
